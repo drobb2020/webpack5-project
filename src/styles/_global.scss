@@ -1,0 +1,29 @@
+@use 'variables';
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: variables.$bg;
+  color: var(--text);
+  min-height: 100vh;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 4rem;
+  border-bottom: 3px var(--text) dotted;
+}
