@@ -10,7 +10,6 @@ body {
   background-color: variables.$bg;
   color: var(--text);
   min-height: 100vh;
-  text-align: center;
 }
 
 main {
@@ -21,9 +20,22 @@ main {
 
 button {
   font-size: 1.5rem;
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: steelblue;
+  color: #fff;
 }
 
 h1 {
   font-size: 4rem;
   border-bottom: 3px var(--text) dotted;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-left: 10px;
+}
+
+ul li {
+  font-size: 1.5rem;
 }
